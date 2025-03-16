@@ -1,0 +1,99 @@
+{
+  "sections": {
+    "header": [
+      "# Encyclopedia of Cancer (Immune) Microenvironment",
+      "Web portal of cell-resolution data of the tumor microenvironment in human cancer."
+    ],
+    "footer": [
+      "Contact details:",
+      "[Artur Mezheyeuski](https://scholar.google.com/citations?user=IjrHTC4AAAAJ&hl=en),",
+      "[Patrick Micke](https://katalog.uu.se/empinfo/?id=N5-811)"
+    ],
+    "about": [
+      "# About",
+      "This is a web portal of cell-resolution data of the tumor microenvironment in human cancer."
+    ],
+    "links": [
+      "# Links",
+      "Contact details:",
+      "* [Artur Mezheyeuski](https://scholar.google.com/citations?user=IjrHTC4AAAAJ&hl=en)",
+      "* [Patrick Micke](https://katalog.uu.se/empinfo/?id=N5-811)"
+    ],
+    "references": [
+      "# References",
+      "Contact details:",
+      "* [Artur Mezheyeuski](https://scholar.google.com/citations?user=IjrHTC4AAAAJ&hl=en)",
+      "* [Patrick Micke](https://katalog.uu.se/empinfo/?id=N5-811)"
+    ],
+    "CD4": [
+      "# CD4",
+      "Description about CD4 and its function in relation to cancer."
+    ],
+    "CD4_Treg": [
+      "# CD4 Treg",
+      "Description about CD4 Treg and its function in relation to cancer."
+    ],
+    "CD8": [
+      "# CD8",
+      "Description about CD8 and its function in relation to cancer."
+    ],
+    "CD8_Treg": [
+      "# CD8 Treg",
+      "Description about CD8 Treg and its function in relation to cancer."
+    ],
+    "B_cells": [
+      "# B cells",
+      "Description about B cells and its function in relation to cancer."
+    ],
+    "NK": [
+      "# NK",
+      "Description about NK and its function in relation to cancer."
+    ],
+    "NKT": [
+      "# NKT",
+      "Description about NKT and its function in relation to cancer."
+    ],
+    "M1": [
+      "# M1",
+      "Description about M1 and its function in relation to cancer."
+    ],
+    "M2": [
+      "# M2",
+      "Description about M2 and its function in relation to cancer."
+    ],
+    "Myeloid_cell": [
+      "# Myeloid cell",
+      "Description about Myeloid cell and its function in relation to cancer."
+    ],
+    "iDC": [
+      "# iDC",
+      "Description about iDC and its function in relation to cancer."
+    ],
+    "mDC": [
+      "# mDC",
+      "Description about mDC and its function in relation to cancer."
+    ],
+    "pDC": [
+      "# pDC",
+      "Description about pDC and its function in relation to cancer."
+    ],
+    "Granulocyte": [
+      "# Granulocyte",
+      "Description about Granulocyte and its function in relation to something other."
+    ]
+  },
+  "nav": [
+    {
+      "label": "About",
+      "id": "about"
+    },
+    {
+      "label": "Links",
+      "id": "links"
+    },
+    {
+      "label": "References",
+      "id": "references"
+    }
+  ]
+}
