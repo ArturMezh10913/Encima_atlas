@@ -1,0 +1,29 @@
+version: "3.4"
+services:
+    api:
+        image: encam_api:latest
+        build:
+            context: ./api
+    encam-frontend-devel:
+        image: encam_frontend:latest
+        build:
+            context: ./frontend
+        volumes:
+            - ./frontend:/app
+        working_dir: /
+    main:
+        image: encam_main:latest
+        build:
+            context: ./
+        ports:
+            - 8080:8080
+            - 8443:8443
+        volumes:
+            - type: bind
+              source: ./api
+              target: /api_src
+            - type: bind
+              source: ./config
+              target: /config
+        depends_on:
+            - encam-frontend-devel

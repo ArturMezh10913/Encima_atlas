@@ -1,0 +1,18 @@
+name: Docker Compose Build
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build the docker-compose images
+      run: docker-compose build
+    - name: Run frontend typecheck
+      run: docker-compose run -w /app encam-frontend-devel yarn run typecheck
+    - name: Run frontend tests
+      run: docker-compose run -w /app encam-frontend-devel yarn run test
+    - name: Run backend tests
+      run: docker-compose run -w /code main python3 test.py

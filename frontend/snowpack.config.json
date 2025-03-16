@@ -1,0 +1,26 @@
+{
+  "mount": {
+    "public": "/",
+    "src": "/_dist_"
+  },
+  "plugins": [
+    "@snowpack/plugin-react-refresh",
+    "@snowpack/plugin-babel",
+    "@snowpack/plugin-dotenv"
+  ],
+  "installOptions": {
+    "polyfillNode": true
+  },
+  "devOptions": {
+    "port": 1234
+  },
+  "alias": {
+    "@app": "./src"
+  },
+  "exclude": [
+    "**/node_modules/**/*",
+    "**/__tests__/*",
+    "**/*.@(spec|test).@(js|mjs)",
+    "**/*doctest*"
+  ]
+}
